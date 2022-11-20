@@ -2,7 +2,11 @@
 title: "Learn Quarto"
 author: "Mulugeta Maru"
 date: "2022-11-19"
-output: html_document
+output: 
+  html_document:
+    code-fold: true
+    code-tools: true
+
 ---
 
 ```{r setup, include=FALSE}
